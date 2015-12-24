@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90EB96B1C2B060500A45874 /* global_var.c in Sources */ = {isa = PBXBuildFile; fileRef = D90EB9671C2B060500A45874 /* global_var.c */; settings = {ASSET_TAGS = (); }; };
+		D90EB96C1C2B060500A45874 /* job_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = D90EB9681C2B060500A45874 /* job_struct.c */; settings = {ASSET_TAGS = (); }; };
+		D90EB96D1C2B060500A45874 /* parsing_command.c in Sources */ = {isa = PBXBuildFile; fileRef = D90EB9691C2B060500A45874 /* parsing_command.c */; settings = {ASSET_TAGS = (); }; };
+		D90EB96E1C2B060500A45874 /* program_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = D90EB96A1C2B060500A45874 /* program_struct.c */; settings = {ASSET_TAGS = (); }; };
+		D90EB9711C2B59E100A45874 /* Side_Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = D90EB96F1C2B59E100A45874 /* Side_Functions.c */; settings = {ASSET_TAGS = (); }; };
 		D9EDA9191C2AFF6D00FFB1BC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D9EDA9181C2AFF6D00FFB1BC /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D90EB9631C2B060500A45874 /* global_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global_var.h; sourceTree = "<group>"; };
+		D90EB9641C2B060500A45874 /* job_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = job_struct.h; sourceTree = "<group>"; };
+		D90EB9651C2B060500A45874 /* parsing_command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsing_command.h; sourceTree = "<group>"; };
+		D90EB9661C2B060500A45874 /* program_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = program_struct.h; sourceTree = "<group>"; };
+		D90EB9671C2B060500A45874 /* global_var.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = global_var.c; sourceTree = "<group>"; };
+		D90EB9681C2B060500A45874 /* job_struct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = job_struct.c; sourceTree = "<group>"; };
+		D90EB9691C2B060500A45874 /* parsing_command.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parsing_command.c; sourceTree = "<group>"; };
+		D90EB96A1C2B060500A45874 /* program_struct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = program_struct.c; sourceTree = "<group>"; };
+		D90EB96F1C2B59E100A45874 /* Side_Functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Side_Functions.c; sourceTree = "<group>"; };
+		D90EB9701C2B59E100A45874 /* Side_Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Side_Functions.h; sourceTree = "<group>"; };
 		D9EDA9151C2AFF6D00FFB1BC /* Shell_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Shell_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EDA9181C2AFF6D00FFB1BC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +72,17 @@
 		D9EDA9171C2AFF6D00FFB1BC /* Shell_2 */ = {
 			isa = PBXGroup;
 			children = (
+				D90EB9631C2B060500A45874 /* global_var.h */,
+				D90EB9641C2B060500A45874 /* job_struct.h */,
+				D90EB9651C2B060500A45874 /* parsing_command.h */,
+				D90EB9661C2B060500A45874 /* program_struct.h */,
+				D90EB9671C2B060500A45874 /* global_var.c */,
+				D90EB9681C2B060500A45874 /* job_struct.c */,
+				D90EB9691C2B060500A45874 /* parsing_command.c */,
+				D90EB96A1C2B060500A45874 /* program_struct.c */,
 				D9EDA9181C2AFF6D00FFB1BC /* main.c */,
+				D90EB96F1C2B59E100A45874 /* Side_Functions.c */,
+				D90EB9701C2B59E100A45874 /* Side_Functions.h */,
 			);
 			path = Shell_2;
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90EB9711C2B59E100A45874 /* Side_Functions.c in Sources */,
+				D90EB96E1C2B060500A45874 /* program_struct.c in Sources */,
+				D90EB96D1C2B060500A45874 /* parsing_command.c in Sources */,
+				D90EB96B1C2B060500A45874 /* global_var.c in Sources */,
+				D90EB96C1C2B060500A45874 /* job_struct.c in Sources */,
 				D9EDA9191C2AFF6D00FFB1BC /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +265,7 @@
 				D9EDA91E1C2AFF6D00FFB1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
